@@ -1,0 +1,22 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    <com.luooh.wxtab.SimpleViewPagerIndicator
+        android:id="@+id/spi_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#ffffff" 
+        />
+
+    <com.luooh.wxtab.ParentViewPager
+        android:id="@+id/vp_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+</LinearLayout>
